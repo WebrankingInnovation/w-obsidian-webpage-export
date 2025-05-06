@@ -38,7 +38,7 @@ export default class HTMLExportPlugin extends Plugin
 		await SettingsPage.loadSettings();
 		await AssetHandler.initialize();
 
-		this.addRibbonIcon("folder-up", "Export Vault to HTML", () =>
+		this.addRibbonIcon("radiation", "Export Vault to HTML W", () =>
 		{
 			HTMLExporter.export(false);
 		});
