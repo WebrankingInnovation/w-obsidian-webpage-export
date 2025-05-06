@@ -21,7 +21,7 @@ export class ExportModal extends Modal
 	private filePicker: FilePickerTree;
 	private pickedFiles: TFile[] | undefined = undefined;
 	private validPath: boolean = true;
-	public static title: string = "Export to HTML";
+	public static title: string = "Export to HTML (W)";
 
 	public exportInfo: ExportInfo;
 
